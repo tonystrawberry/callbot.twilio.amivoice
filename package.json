@@ -1,0 +1,26 @@
+{
+  "name": "Callbot Application - Twilio, AmiVoice, ChatGPT",
+  "version": "1.0",
+  "description": "This is a application that uses Twilio Programmable Voice, AmiVoice API (Speech-to-Text) and ChatGPT (3.5) to create a call center that can respond to customer inquiries.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "httpdispatcher": "^2.1.2",
+    "websocket": "^1.0.28",
+    "twilio": "^3.56",
+    "openai": "^3.3.0"
+  }
+}
