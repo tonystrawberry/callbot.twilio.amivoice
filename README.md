@@ -1,16 +1,23 @@
-# Call Center powered by Twilio, AmiVoice API (Speech-to-Text) and ChatGPT (3.5)
+<p align="center">
+  <a>
+    <img src="https://cdn.webo.digital/uploads/2022/05/What-Is-Twilio-scaled.jpg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Call Center powered by Twilio, AmiVoice API (Speech-to-Text) and ChatGPT (3.5)
+</h1>
 
-## Overview
+## 🌸 Overview
 This is a application that uses Twilio Programmable Voice, AmiVoice API (Speech-to-Text) and ChatGPT (3.5) to create a call center that can respond to customer inquiries.
 
-## Technologies
+## 📚 Technologies
 - Node.js
 - Websocket
 - [Twilio Programmable Voice](https://www.twilio.com/voice) with Twilio SDK for Node.js
 - [AmiVoice API](https://docs.amivoice.com/amivoice-api/manual/) with AmiVoice Websocket API
 - [ChatGPT](https://platform.openai.com/docs/guides/gpt) with OpenAI API library for Node.js
 
-## Prerequisites
+## 👌 Prerequisites
 You need to set the following information in `.env` to run this application:
 
 ```
@@ -30,7 +37,7 @@ You will need to set it inside `.env` as `NGROK_DOMAIN`.
 ngrok http 3000
 ```
 
-### Installation
+## 💻 Installation
 ```
 npm install (only once)
 
