@@ -1,4 +1,4 @@
-/* amivoice-service.js */
+/* amivoice.js */
 /*
   This class will store the connection to the AmiVoice API.
   It will also handle the connection and disconnection of the service.
