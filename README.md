@@ -9,6 +9,7 @@
 
 ## 🌸 Overview
 This is a application that uses Twilio Programmable Voice, AmiVoice API (Speech-to-Text) and ChatGPT (3.5) to create a call center that can respond to customer inquiries.
+⚠️ AmiVoice API is a voice recognition for **Japanese** language only. So this application only works for Japanese conversation.
 
 ## 📚 Technologies
 - Node.js
@@ -44,3 +45,6 @@ npm install (only once)
 ngrok http 3000
 node ./server.js
 ```
+## 📞 Usage
+
+Call the Twilio phone number associated with the function and enjoy the conversation with a Japanese AI bot 🤖
